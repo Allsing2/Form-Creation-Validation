@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="registration-form" action="#" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+
+        <button type="submit">Register</button>
+        <!-- The feedback div is now initially hidden, to be shown by JavaScript -->
+        <div id="form-feedback" style="display: none;"></div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
